@@ -1,0 +1,19 @@
+body {
+	background-color: #000;
+	span {
+		color: red;
+	}
+	background: url("@img/WIN_20211225_16_31_09_Pro.jpg") 0 0 no-repeat;
+}
+
+@media (max-width: 768px) {
+	span {
+		font-size: 20px;
+	}
+}
+
+@media (max-width: 768px) {
+	body {
+		background-color: rgb(126, 33, 33);
+	}
+}
