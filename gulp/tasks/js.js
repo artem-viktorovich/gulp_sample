@@ -13,6 +13,6 @@ export const js = () => {
 				filename: 'app.min.js',
 			}
 		}))
-		.pipe(app.gulp.dest(app.path.build.css))
+		.pipe(app.gulp.dest(app.path.build.js))
 		.pipe(app.plugins.browsersync.stream());
 }

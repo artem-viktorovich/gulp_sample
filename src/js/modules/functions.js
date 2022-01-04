@@ -1,7 +1,5 @@
 //Проверка поддержки webp, добавление класса webp или no_webp для HTML
-
 export function isWebp() {
-
 	function testWebP(callback) {
 		let webP = new Image();
 		webP.onload = webP.onerror = function () {
@@ -14,6 +12,5 @@ export function isWebp() {
 		let className = support === true ? 'webp' : 'no-webp';
 		document.documentElement.classList.add(className);
 	});
-
 }
 
